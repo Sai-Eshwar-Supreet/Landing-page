@@ -3,70 +3,76 @@
     <head>
         <meta charset="UTF-8" />
         <title>Landing Page</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-
         <!-- Header -->
-        <div>
-            Header Logo
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
+        <div class="section header">
+            <!-- Nav bar -->
+            <div class="navbar">
+                <p class="logo">Aether Search Initiative</p>
+                <ul>
+                    <li><a href="#hero">About</a></li>
+                    <li><a href="#sightings">Evidence</a></li>
+                    <li><a href="#report">Report Sighting</a></li>
+                </ul>
+            </div>
+
+            <!-- Hero Section -->
+            <div id="hero" class="hero">
+                <div class="hero-content">
+                    <h1 class="title">Help Me Find Lumine!</h1>
+                    <p class="subtitle">Lost since 2020. Last seen leading Abyss Order forces against me.</p>
+                    <p class="subtitle">(Please avoid “I saw her in my dreams” submissions. We’re filtering those out.)</p>
+                    <button class="sign-up">REPORT SIGHTING</button>
+                </div>
+                <div class="hero-image"><img src="./Assets/Images/lumine-full.png" alt="Lumine from Genshin Impact"></div>
+            </div>
         </div>
-
-        <!-- Hero Section -->
-        <div>
-            <div>
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
-            </div>
-            <div>this is a placeholder for an image</div>
+        
+        <div class="content">
+            <!-- Random Info -->
+             <div id="sightings" class="section">
+                <h2>Latest Verified (and Questionably Verified) Sightings</h2>
+                <div class="image-container">
+                    <div class="image-item">
+                        <div><img src="./Assets/Images/abyss-hunter-pfp.jpg" alt="Profile image of abyss-hunter"/></div>
+                        <p>She moves with the Abyss Order wherever its core forces gather.</p>
+                    </div>
+                    <div class="image-item">
+                        <div><img src="./Assets/Images/tree-admin-pfp.jpg" alt="Profile image of tree-admin"/></div>
+                        <p>Her presence leaves distortions in Irminsul’s records… faint, but deliberate.</p>
+                    </div>
+                    <div class="image-item">
+                        <div><img src="./Assets/Images/wind-manager-pfp.jpg" alt="Profile image of wind-manager"/></div>
+                        <p>Abyss activity increased beyond Mondstadt’s borders. A lone blonde figure was reported among them.</p>
+                    </div>
+                    <div class="image-item">
+                        <div><img src="./Assets/Images/smiling-menace-pfp.jpg" alt="Profile image of smiling-menace" /></div>
+                        <p>If she’s leading Abyss troops again, heh… that battlefield’s bound to get interesting.</p>
+                    </div>
+                </div>
+             </div>
+    
+             <!-- Quotes -->
+              <div class="section quotes">
+                <blockquote>
+                    <p class="quote"><i>We’ll find her eventually! Probably. Hopefully. Maybe?</i></p>
+                    <p class="author"><b>- Paimon, Emergency Food & Moral Support</b></p>
+                </blockquote>
+              </div>
+    
+              <!-- call to Action -->
+    
+              <div id="report" class="section cta">
+                <div class="cta-container">
+                    <div>
+                        <h3 class="cta-title">Join the Lumine Search Task Force</h3>
+                        <p class="cta-subtitle">Submit your intel, theories, screenshots, unverified sketches and suspicious diagrams. Every clue matters. Probably.</p>
+                    </div>
+                    <button class="cta-signup">I WANT TO HELP</button>
+                </div>
+              </div>
         </div>
-
-        <!-- Information Section -->
-         <div>
-            <h2>Some random information</h2>
-            <div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-            </div>
-         </div>
-
-         <!-- Quotes section -->
-          <div>
-            <blockquote>
-                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-                <footer>- Thor, God of Thunder</footer>
-            </blockquote>
-          </div>
-
-          <!-- call to Action -->
-
-          <div>
-            <div>
-                <div>
-                    <h3>Call to action! It's time!</h3>
-                    <p> Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <button>Sign up</button>
-            </div>
-          </div>
     </body>
 </html>
