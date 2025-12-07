@@ -24,7 +24,7 @@ The focus is on clean HTML structure, Flexbox layout, maintaining visual hierarc
 - Semantic HTML structure
 - Flexbox for layout control
 - Visual hierarchy and spacing
-- Theming a generic layout with original narrative content
+- Theming a generic layout with narrative content
 
 
 ## Attribution
